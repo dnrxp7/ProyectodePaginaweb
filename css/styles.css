@@ -16,9 +16,9 @@
     margin-top: -5px;
 }
 .T{
-    width: 400px;
-    margin-left: 700px;
-margin-top: 50px;
+    max-width: 350px;
+    margin-left: 725px;
+margin-top: 40px;
     border-radius: 20px;
     
 }
@@ -29,9 +29,9 @@ display: flex;
 .L{
    
   font-family: "Fugaz One", sans-serif;
-  font-weight: 400;
+  font-weight: 40px;
   font-style: normal;
-  font-size: 70px;
+  font-size: 50px;
     margin-top: 50px;
     margin-left: 50px;
     
@@ -79,7 +79,7 @@ display: flex;
   
 
     position: absolute;
-    bottom: 100px;
+    bottom: 75px;
     left: 75px;
 
     width: 500px;
@@ -95,7 +95,7 @@ display: flex;
 }
 .Lis{
     position: absolute;
-    bottom: 110px;
+    bottom: 90px;
     left: 700px;
 
     width: 500px;
@@ -106,7 +106,7 @@ display: flex;
 }
 .Centro{
     position: absolute;
-    top: 150px;
+    top: 125px;
     left: 50%;
 
     transform: translateX(-50%);
@@ -117,4 +117,33 @@ display: flex;
     border-radius: 20px;
 
     box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+}
+.h2{
+    font-family: 'Times New Roman', Times, serif; 
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+.Desi{
+     position: absolute;
+    bottom: 150px;
+    left: 50px;
+
+    width: 500px;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left !important;
+}
+.Des h2{
+    text-align: center !important;
+}
+
+.epa{
+    width: 1050px;
+    margin-left: 190px;
+}
+
+.bbb{
+    background-color: #555;
 }
