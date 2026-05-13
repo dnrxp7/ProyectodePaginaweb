@@ -201,7 +201,7 @@ display: flex;
     line-height: 1.5;
     text-align: left !important;
 }
-.Des h2{
+.desi h2{
     text-align: center !important;
 }
 .imagenes{
@@ -303,6 +303,121 @@ display: flex;
     line-height: 1.5;
     text-align: left !important;
 }
-.Des3 h2{
+.Desi3 h2{
     text-align: center !important;
+}
+
+.imag1{
+    width: 200px;
+    position: absolute;
+    left :565px;
+    top: 50px;
+}
+
+.imag2{
+    width: 350px;
+    position: absolute;
+    left: 700px;
+    top: 200px;
+}
+.v5{
+     position: absolute;
+    right: 30px;
+    top: 75px;
+    }
+.imh1{
+width: 300px;
+    position: absolute;
+    left :565px;
+    top: 60px;
+}
+.imh2{ width: 350px;
+    position: absolute;
+    left: 700px;
+    top: 225px;
+
+
+}
+.imj1{
+width: 200px;
+    position: absolute;
+    left :800px;
+    top: 30px;
+}
+.imj2{
+width: 200px;
+    position: absolute;
+    left : 1000px;
+    top: 250px;
+}
+.imj3{
+width: 200px;
+    position: absolute;
+    left :1150px;
+    top: 30px;
+}
+.imj4{
+width: 200px;
+    position: absolute;
+    left :675px;
+    top: 250px;
+}
+.Desi5{
+     position: absolute;
+    bottom: 50px;
+    left: 50px;
+
+    width: 500px;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left !important;
+}
+.Desi5 h2{
+    text-align: center !important;
+}
+.imag6{
+ width: 450px;
+    position: absolute;
+    left :565px;
+    top: 50px;
+}
+.imag5{
+ width: 500px;
+    position: absolute;
+    left :565px;
+    top: 225px;
+}
+.Desi6{
+     position: absolute;
+    bottom: 225px;
+    left: 40px;
+
+    width: 500px;
+    color: #555;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left !important;
+}
+.Desi6 h2{
+    text-align: center !important;
+}
+.image1{
+    width: 300px;
+    position: absolute;
+    left :1000px;
+    top: 20px;
+}
+
+.image2{
+    width: 350px;
+    position: absolute;
+    left: 700px;
+    top: 200px;
+}
+.image3{
+    width: 350px;
+    position: absolute;
+    left: 550px;
+    top: 50px;
 }
