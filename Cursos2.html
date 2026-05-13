@@ -1,70 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cursos</title>
-     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/styles.css">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
-   crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursos</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
 
 <body class="index">
-    
-  <div class="F">
-    <nav class="navbar navbar-expand-lg navbar-light " >
-    <div class="container-fluid" >
-    
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="./index.html"  ><img src="./img/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt=""  class="G"></a>
-        </li>
+
+  <!-- NAVBAR -->
+  
+  <nav class="navbar navbar2 navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./img/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="Inicio" class="home">
+      </a>
     </div>
-    </div>
-    </nav>
-  </div>
+  </nav>
+
+  <!-- CAROUSEL -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="./Desarrollohumano.html">
+          <img src="./img/Desarrollo Humano (6).png" class="d-block w-100" alt="Desarrollo Humano" >
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="./contabilidad.html">
+          <img src="./img/Conta.png" class="d-block w-100" alt="Contabilidad" >
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="./Metodologia.html">
+          <img src="./img/Metodo.png" class="d-block w-100" alt="Metodología" >
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="./Logica.html">
+          <img src="./img/Logica.png" class="d-block w-100" alt="Lógica" >
+        </a>
+
+      </div>
+       <div class="carousel-item">
+        <a href="./Computo.html">
+          <img src="./img/Computo.png" class="d-block w-100" alt="Lógica" >
+        </a>
         
-  <!--CAROUSEL-->
-  <div id="carouselExampleFade" class="carousel slide carousel-fade epa" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <a href="Desarrollohumano.html"><img src="img/Desarrollo Humano.png" class="d-block w-100" alt="..."></a>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item active">
-      <a href="Desarrollohumano.html"><img src="img/Desarrollo Humano.png" class="d-block w-100" alt="..."></a>
-    </div>
-    <div class="carousel-item active">
-      <a href="Desarrollohumano.html"><img src="img/Desarrollo Humano.png" class="d-block w-100" alt="..."></a>
-    </div>
-  </div>
-  <div class="bbb">
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-  </div>
-</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+Nt
-   UVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- BOTONES -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crosso
-    rigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2A
-    l4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
