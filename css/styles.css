@@ -4,6 +4,14 @@
 
 }
 
+.we{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
 .D{
   font-family: "Domine", serif;
   text-align: center;
@@ -15,26 +23,33 @@
 .G {
     margin-top: -5px;
 }
-.T{
-    max-width: 350px;
-    margin-left: 725px;
-margin-top: 40px;
-    border-radius: 20px;
-    
+
+    .T{
+    width: 350px;
+    border-radius: 25px;
+    margin-left: 40px;
 }
+    
+
+
 
 .K{
-display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .L{
    
   font-family: "Fugaz One", sans-serif;
   font-weight: 40px;
   font-style: normal;
   font-size: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 50px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   
 }
 
@@ -95,8 +110,8 @@ display: flex;
 }
 .Lis{
     position: absolute;
-    bottom: 90px;
-    left: 700px;
+    bottom: 250px;
+    left: 750px;
 
     width: 500px;
     color: #555;
@@ -106,7 +121,7 @@ display: flex;
 }
 .Centro{
     position: absolute;
-    top: 100px;
+    top:  150px;
     left: 50%;
 
     transform: translateX(-50%);
@@ -137,15 +152,6 @@ display: flex;
 }
 .Des h2{
     text-align: center !important;
-}
-
-.epa{
-    width: 1050px;
-    margin-left: 190px;
-}
-
-.bbb{
-    background-color: #555;
 }
 
 .carousel-control-prev-icon,
@@ -435,4 +441,99 @@ width: 200px;
 }
 .pero{
     margin-top: 85px;
+}
+
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 375px;
+    margin-left: 91px;
+}
+
+.info p{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #dbbd92;
+    border-radius: 12px;
+    font-size: 16px;
+    width: auto;
+    margin: 0;
+}
+.info p:hover{
+    transform: translateX(10px);
+}
+
+.sobre-mi{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 300px;
+}
+
+.card-sobre{
+    background-color: #f3eee7;
+    width: 400px;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
+}
+
+.card-sobre h2{
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: #1f232b;
+}
+
+.card-sobre p,
+.card-sobre li{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.card-sobre ul{
+    padding-left: 20px;
+}
+
+.ca{
+width: 300px;
+    border-radius: 25px;
+    margin-left: 1075px;
+    margin-top: -300px;
+}
+.cursos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.curso-card{
+    background-color: #5FA777;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.curso-card:hover{
+    transform: translateY(-5px);
+}
+
+.curso-card h2{
+    font-size: 28px;
+    color: #1d232f;
+    margin-bottom: 15px;
+}
+
+.curso-card p{
+    font-size: 17px;
+    color: #e0dada;
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
