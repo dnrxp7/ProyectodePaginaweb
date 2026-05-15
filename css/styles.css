@@ -1,56 +1,57 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FAF3EA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .index{
-      background-color: #FAF3EA;
-
-
+    background-color: #FAF3EA;
 }
 
 .we{
-    
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
+}
 
-}
 .D{
-  font-family: "Domine", serif;
-  text-align: center;
-} 
-.F{
-    background-color:#FAF3EA ;
-    margin-left: 375px;
+    font-family: "Domine", serif;
+    text-align: center;
 }
-.G {
+
+.F{
+    background-color:#FAF3EA;
+    display: flex;
+    justify-content: center;
+}
+
+.G{
     margin-top: -5px;
 }
 
-    .T{
+.T{
     width: 350px;
     border-radius: 25px;
-    margin-left: 40px;
 }
-    
-
-
 
 .K{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 .L{
-   
-  font-family: "Fugaz One", sans-serif;
-  font-weight: 40px;
-  font-style: normal;
-  font-size: 50px;
+    font-family: "Fugaz One", sans-serif;
+    font-size: 50px;
     margin-top: 30px;
     margin-left: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  
 }
 
 .nav-link{
@@ -64,15 +65,13 @@
     transform: translateY(-5px);
     color: #F0B13B !important;
 }
-.redes{
-    position: absolute;
-    bottom: 40px;
 
+.redes{
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 30px;
-    
+    margin-top: 50px;
 }
 
 .redes a{
@@ -85,372 +84,209 @@
     color: rgb(234, 17, 234);
     transform: scale(1.2);
 }
+
 .spotify{
     position: fixed;
     bottom: 20px;
-    right: 75px;
+    right: 20px;
 }
-.Des{
-  
 
-    position: absolute;
-    bottom: 75px;
-    left: 75px;
-
-    width: 500px;
+.Des,
+.Lis,
+.Desi,
+.Desi3,
+.Desi5,
+.Desi6,
+.desi2{
+    width: 90%;
+    max-width: 700px;
     color: #555;
-    font-size: 17px;
-    line-height: 1.5;
-    text-align: left !important;
- 
+    line-height: 1.7;
+    margin: 40px auto;
 }
 
-.Des h3{
-    text-align: center !important;
+.Des h2,
+.Des h3,
+.Desi3 h2,
+.Desi5 h2,
+.Desi6 h2{
+    text-align: center;
 }
-.Lis{
-    position: absolute;
-    bottom: 250px;
-    left: 750px;
 
-    width: 500px;
-    color: #555;
-    font-size: 17px;
-    line-height: 1.5;
-    text-align: left !important;
-}
 .Centro{
-    position: absolute;
-    top:  150px;
-    left: 50%;
-
-    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .Centro img{
     width: 320px;
     border-radius: 20px;
-
     box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
 }
-.h2{
-    font-family: 'Times New Roman', Times, serif; 
-    position: absolute;
-    left: 100px;
-    top: 150px;
-}
-.Desi{
-     position: absolute;
-    bottom: 150px;
-    left: 50px;
 
-    width: 500px;
-    color: #555;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: left !important;
-}
-.Des h2{
-    text-align: center !important;
+.h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 40px;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: #808080; 
-  border-radius: 50%;        
+    background-color: #808080;
+    border-radius: 50%;
 }
-
 
 .carousel-control-prev,
 .carousel-control-next {
-  background-color: rgba(128, 128, 8, 0.3); 
-  border-radius: 50%;
+    background-color: rgba(128, 128, 8, 0.3);
+    border-radius: 50%;
 }
-
 
 #carouselExampleFade {
-  width: 900px;   
-  height: 500px;  
-  margin: auto;  
+    width: 90%;
+    max-width: 900px;
+    height: 500px;
+    margin: auto;
 }
+
 .home{
     width: 35px;
     margin-top: 45px;
 }
+
 #carouselExampleFade img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-
-
 
 .carousel-control-prev {
-  transform: translateX(-100px); 
+    transform: translateX(-20px);
 }
-
 
 .carousel-control-next {
-  transform: translateX(100px);
+    transform: translateX(20px);
 }
+
 .navbar2{
-    margin-left: 650px;
-}
-.desi2{
-     position: absolute;
-    bottom: 150px;
-    margin-left: 20px;
-
-    width: 700px;
-    color: #555;
-    font-size: 15px;
-    line-height: 1.5;
-    text-align: left !important;
-}
-.desi h2{
-    text-align: center !important;
-}
-.imagenes{
-    position: relative;
-    width: 100px;
-    height: 300px;
+    display: flex;
+    justify-content: center;
 }
 
-.im1{
-    width: 300px;
-    position: absolute;
-    left: 725px;
-    top: 180px;
-}
-
-.im2{
-    width: 300px;
-    position: absolute;
-    left: 800px;
-    top: 300px;
-}
-.v1{
-     position: absolute;
-    right: 55px;
-    top: 175px;
- 
-}
+.imagenes,
 .imagenes2{
-    position: relative;
-    width: 100px;
-    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
 }
 
-.ima1{
-    width: 500px;
-    position: absolute;
-    left :550px;
-    top: 100px;
-}
-
-.ima2{
-    width: 400px;
-    position: absolute;
-    left: 600px;
-    top: 225px;
-}
-.v2{
-     position: absolute;
-    right: 15px;
-    top: 275px;
- 
-}
-.imf1{
-    width: 400px;
-    position: absolute;
-    left :565px;
-    top: 100px;
-}
-
-.imf2{
-    width: 400px;
-    position: absolute;
-    left: 625px;
-    top: 225px;
-}
-.v3{
-     position: absolute;
-    right: 50px;
-    top: 150px;
- 
-}
-.img1{
-    width: 350px;
-    position: absolute;
-    left :565px;
-    top: 50px;
-}
-
-.img2{
-    width: 350px;
-    position: absolute;
-    left: 625px;
-    top: 175px;
-}
-.v4{
-     position: absolute;
-    right: 30px;
-    top: 200px;
- 
-}
-.Desi3{
-     position: absolute;
-    bottom: 250px;
-    left: 50px;
-
-    width: 500px;
-    color: #555;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: left !important;
-}
-.Desi3 h2{
-    text-align: center !important;
-}
-
-.imag1{
-    width: 200px;
-    position: absolute;
-    left :565px;
-    top: 50px;
-}
-
-.imag2{
-    width: 350px;
-    position: absolute;
-    left: 700px;
-    top: 200px;
-}
-.v5{
-     position: absolute;
-    right: 30px;
-    top: 75px;
-    }
-.imh1{
-width: 300px;
-    position: absolute;
-    left :565px;
-    top: 60px;
-}
-.imh2{ width: 350px;
-    position: absolute;
-    left: 700px;
-    top: 225px;
-
-
-}
-.imj1{
-width: 200px;
-    position: absolute;
-    left :800px;
-    top: 30px;
-}
-.imj2{
-width: 200px;
-    position: absolute;
-    left : 1000px;
-    top: 250px;
-}
-.imj3{
-width: 200px;
-    position: absolute;
-    left :1150px;
-    top: 30px;
-}
-.imj4{
-width: 200px;
-    position: absolute;
-    left :675px;
-    top: 250px;
-}
-.Desi5{
-     position: absolute;
-    bottom: 50px;
-    left: 50px;
-
-    width: 500px;
-    color: #555;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: left !important;
-}
-.Desi5 h2{
-    text-align: center !important;
-}
-.imag6{
- width: 450px;
-    position: absolute;
-    left :565px;
-    top: 50px;
-}
-.imag5{
- width: 500px;
-    position: absolute;
-    left :565px;
-    top: 225px;
-}
-.Desi6{
-     position: absolute;
-    bottom: 225px;
-    left: 40px;
-
-    width: 500px;
-    color: #555;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: left !important;
-}
-.Desi6 h2{
-    text-align: center !important;
-}
-.image1{
+.im1,
+.im2,
+.ima1,
+.ima2,
+.imf1,
+.imf2,
+.img1,
+.img2,
+.imag1,
+.imag2,
+.imh1,
+.imh2,
+.imj1,
+.imj2,
+.imj3,
+.imj4,
+.imag5,
+.imag6,
+.image1,
+.image2,
+.image3{
     width: 300px;
-    position: absolute;
-    left :1000px;
-    top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
 }
 
-.image2{
-    width: 350px;
-    position: absolute;
-    left: 700px;
-    top: 200px;
+.ima1,
+.imag5{
+    width: 500px;
 }
+
+.ima2,
+.imf1,
+.imf2,
+.img1,
+.img2,
+.imag2,
+.imh2,
+.image2,
 .image3{
     width: 350px;
-    position: absolute;
-    left: 550px;
-    top: 50px;
 }
+
+.imag6{
+    width: 450px;
+}
+
+.image1{
+    width: 300px;
+}
+
+.imj1,
+.imj2,
+.imj3,
+.imj4,
+.imag1{
+    width: 200px;
+}
+
+.v1,
+.v2,
+.v3,
+.v4,
+.v5{
+    margin-top: 20px;
+}
+
+.v1 video,
+.v2 video,
+.v3 video,
+.v4 video,
+.v5 video,
+video{
+    width: 320px;
+    border-radius: 20px;
+}
+
 .per{
- margin-top: 100px;
+    margin-top: 100px;
 }
+
 .pera{
     margin-top: 25px;
 }
+
 .peru{
     margin-top: 111px;
 }
+
 .peri{
     margin-top: 95px;
 }
+
 .pero{
     margin-top: 85px;
 }
 
-
-
 .info{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 15px;
-    margin-top: 375px;
-    margin-left: 91px;
+    margin-top: 100px;
+    justify-content: center;
 }
 
 .info p{
@@ -459,9 +295,9 @@ width: 200px;
     background-color: #dbbd92;
     border-radius: 12px;
     font-size: 16px;
-    width: auto;
     margin: 0;
 }
+
 .info p:hover{
     transform: translateX(10px);
 }
@@ -471,7 +307,7 @@ width: 200px;
     gap: 30px;
     justify-content: center;
     margin-top: 50px;
-    margin-right: 300px;
+    flex-wrap: wrap;
 }
 
 .card-sobre{
@@ -500,14 +336,15 @@ width: 200px;
 }
 
 .ca{
-width: 300px;
+    width: 300px;
     border-radius: 25px;
-    margin-left: 1100px;
-    margin-top: -300px;
+    display: block;
+    margin: 40px auto;
 }
+
 .cursos{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     padding: 40px;
     margin-top: 40px;
@@ -522,7 +359,7 @@ width: 300px;
 }
 
 .curso-card:hover{
-    transform: translateY(-55px);
+    transform: translateY(-20px);
 }
 
 .curso-card h2{
@@ -537,8 +374,64 @@ width: 300px;
     line-height: 1.6;
     margin-bottom: 10px;
 }
-.KW{
-    
-    font-size: 30px;
 
+.KW{
+    font-size: 30px;
+}
+
+@media(max-width:1000px){
+
+    .K{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .L{
+        margin-left: 0;
+        font-size: 40px;
+    }
+
+    #carouselExampleFade{
+        height: 300px;
+    }
+
+    .im1,
+    .im2,
+    .ima1,
+    .ima2,
+    .imf1,
+    .imf2,
+    .img1,
+    .img2,
+    .imag1,
+    .imag2,
+    .imh1,
+    .imh2,
+    .imj1,
+    .imj2,
+    .imj3,
+    .imj4,
+    .imag5,
+    .imag6,
+    .image1,
+    .image2,
+    .image3,
+    .v1 video,
+    .v2 video,
+    .v3 video,
+    .v4 video,
+    .v5 video{
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .Des,
+    .Lis,
+    .Desi,
+    .Desi3,
+    .Desi5,
+    .Desi6,
+    .desi2{
+        width: 90%;
+    }
 }
