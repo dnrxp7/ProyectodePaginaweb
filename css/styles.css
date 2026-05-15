@@ -437,7 +437,7 @@ width: 200px;
     margin-top: 111px;
 }
 .peri{
-    margin-top: 65px;
+    margin-top: 95px;
 }
 .pero{
     margin-top: 85px;
@@ -522,7 +522,7 @@ width: 300px;
 }
 
 .curso-card:hover{
-    transform: translateY(-5px);
+    transform: translateY(-55px);
 }
 
 .curso-card h2{
