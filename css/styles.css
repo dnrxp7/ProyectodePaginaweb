@@ -213,7 +213,7 @@
 .imagenes{
     position: relative;
     width: 100px;
-    height: 300px;
+    min-height: 700px;
 }
 
 .im1{
@@ -430,6 +430,7 @@ width: 200px;
 .per{
  margin-top: 100px;
 }
+
 .pera{
     margin-top: 25px;
 }
