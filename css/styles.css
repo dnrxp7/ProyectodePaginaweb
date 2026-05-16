@@ -154,6 +154,11 @@
     text-align: center !important;
 }
 
+.texto-grid{
+    display:grid;
+    grid-template-rows:auto auto;
+    gap:30px;
+}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: #808080; 
@@ -213,24 +218,24 @@
 .imagenes{
     position: relative;
     width: 100px;
-    height: 300px;
+    min-height: 300px;
 }
 
 .im1{
     width: 300px;
-    position: relative;
+    position: absolute;
     left: 725px;
     top: 180px;
 }
 
 .im2{
     width: 300px;
-    position: relative;
+    position: absolute;
     left: 800px;
     top: 300px;
 }
 .v1{
-     position: relative;
+     position: absolute;
     right: 55px;
     top: 175px;
  
